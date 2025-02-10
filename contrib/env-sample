@@ -1,0 +1,11 @@
+DEBUG=False
+SECRET_KEY=defina sua chave secreta
+
+# Substituir pelos valores corretos de acordo com o arquivo docker-compose.yml
+DATABASE_URL=postgres://SEU-POSTGRES_USER:SEU-POSTGRES_PASSWORD@localhost:5434/SEU-POSTGRES_DB
+ALLOWED_HOSTS=localhost, 127.0.0.1
+
+# Variáveis do docker-compose
+POSTGRES_PASSWORD=defina sua senha do banco de dados aqui
+POSTGRES_USER=defina seu usuário do banco de dados aqui
+POSTGRES_DB=defina o nome do seu banco de dados aqui
