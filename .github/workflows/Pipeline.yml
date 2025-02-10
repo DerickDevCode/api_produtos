@@ -42,7 +42,7 @@ jobs:
         run: poetry run flake8
 
       - name: Rodar os testes
-        run: poetry run pyteste --cov=api
+        run: poetry run pytest --cov=api
 
 #  deploy:
 #    name: Deploy
